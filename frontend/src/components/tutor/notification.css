@@ -1,0 +1,13 @@
+.errmsg{
+    background: red;
+    color: rosybrown;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.successmsg{
+    background: rgb(6, 206, 56);
+    color: rosybrown;
+    text-align: center;
+    padding: 10px 0;
+}

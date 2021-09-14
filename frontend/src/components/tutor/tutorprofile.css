@@ -1,0 +1,104 @@
+.tutor_profile{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+}
+
+.tutor_profile .col-left{
+    max-width: 200px;
+    min-width: 300px;
+    padding: 20px 100px;
+    /* margin: auto; */
+}
+
+.tutor_profile .col-left h2{
+    text-align: center;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: cornflowerblue;
+    margin: 10px 0;
+}
+
+.tutor_profile .col-left label{
+    display: block;
+    margin-top : 5px;
+}
+
+.tutor_profile .col-left input{
+    width: 100;
+    height: 30px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    background:hsl(225, 6%, 88%);
+    padding: 0 5px;    
+
+}
+
+.tutor_profile .col-left button{
+    background: rgb(63, 63, 63);
+    color: white;
+    padding: 10px 25px;
+    letter-spacing: 1.3px;
+    margin: 10px 0;
+}
+
+.tutor_profile .col-right{
+    padding:  10px;
+    flex : 1;
+    min-width: 300px;
+    margin-left: 100px;
+}
+
+.tutor_profile .col-right h2{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: cornflowerblue;
+    margin : 34px 0;
+}
+
+
+.tutors{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tutors td,
+.tutors th{
+    border : 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    min-width: 100px;
+}
+
+.tutors tr:nth-child(even){
+    background: rgb(161, 161, 185);
+}
+
+.tutors th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    padding-left: 15px;
+    text-align: left;
+    background: rgb(70, 70, 69);
+    color: white;
+
+}
+
+.tutorials i{
+    cursor: pointer;
+}
+
+
+.tutorials button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  left : 15px;
+}
