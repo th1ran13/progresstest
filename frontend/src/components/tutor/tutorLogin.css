@@ -1,0 +1,50 @@
+.tutorLogin{
+    max-width: 500px;
+    /* margin: auto; */
+    color: rgb(105, 105, 114);
+    padding: 0 15px;
+    margin-bottom: 300px;
+
+}
+
+.tutorLogin h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 20px 0;
+
+}
+
+.tutorLogin label{
+    margin-left: 11px;
+    color: rgb(2, 2, 1);
+}
+
+.tutorLogin input{
+   width: 100%;
+   height: 45px;
+   margin: 10px;
+   border: 2px solid rgb(4, 42, 75);
+   outline: none;
+   padding: 0 10px;
+}
+
+.tutorLogin .buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+}
+
+.tutorLogin .buttons a{
+    color: rgb(51, 42, 173);
+    
+}
+
+.tutorLogin .buttons button{
+    width:  150px;
+    padding: 10px 0;
+    color: rgb(164, 170, 201);
+    background: rgb(8, 2, 65);
+    margin-left: 11px;
+   
+}
